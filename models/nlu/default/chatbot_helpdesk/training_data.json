@@ -1,0 +1,44 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "bonjour"
+      },
+      {
+        "intent": "greet",
+        "text": "salut"
+      },
+      {
+        "intent": "code_puk",
+        "text": "code puk"
+      },
+      {
+        "intent": "wifi",
+        "text": "wifi"
+      },
+      {
+        "intent": "wifi",
+        "text": "wifi"
+      },
+      {
+        "intent": "wifi_guest",
+        "text": "guest"
+      },
+      {
+        "intent": "wifi_guest",
+        "text": "connecter au wifi réseau un invité"
+      },
+      {
+        "intent": "wifi_interne",
+        "text": "interne"
+      },
+      {
+        "intent": "wifi_interne",
+        "text": "se connecter au réseau interne"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}

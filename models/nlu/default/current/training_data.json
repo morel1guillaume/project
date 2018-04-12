@@ -1,0 +1,108 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "bonjour"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "salut"
+      },
+      {
+        "intent": "greet",
+        "text": "yo"
+      },
+      {
+        "intent": "greet",
+        "text": "slt"
+      },
+      {
+        "intent": "greet",
+        "text": "coucou"
+      },
+      {
+        "intent": "greet",
+        "text": "svp"
+      },
+      {
+        "intent": "code_puk",
+        "text": "code puk"
+      },
+      {
+        "intent": "code_puk",
+        "text": "puk"
+      },
+      {
+        "intent": "code_puk",
+        "text": "code puk perdu"
+      },
+      {
+        "intent": "code_puk",
+        "text": "puke"
+      },
+      {
+        "intent": "code_puk",
+        "text": "pouke"
+      },
+      {
+        "intent": "code_puk",
+        "text": "pok"
+      },
+      {
+        "intent": "code_puk",
+        "text": "poke"
+      },
+      {
+        "intent": "wifi",
+        "text": "comment se connecter au wifi"
+      },
+      {
+        "intent": "wifi",
+        "text": "wifi"
+      },
+      {
+        "intent": "wifi",
+        "text": "réseau wifi"
+      },
+      {
+        "intent": "wifi",
+        "text": "internet"
+      },
+      {
+        "intent": "wifi",
+        "text": "connection"
+      },
+      {
+        "intent": "wifi_guest",
+        "text": "invité"
+      },
+      {
+        "intent": "wifi_guest",
+        "text": "guest"
+      },
+      {
+        "intent": "wifi_guest",
+        "text": "connecter un invité"
+      },
+      {
+        "intent": "wifi_guest",
+        "text": "connecter un guest"
+      },
+      {
+        "intent": "wifi_interne",
+        "text": "interne"
+      },
+      {
+        "intent": "wifi_interne",
+        "text": "réseau interne"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}

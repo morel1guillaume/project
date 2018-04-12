@@ -1,0 +1,45 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_wifi
+- utter_wifi_interne
+- utter_wifi_guest
+- utter_code_puk
+actions:
+- utter_greet
+- utter_wifi
+- utter_wifi_interne
+- utter_wifi_guest
+- utter_code_puk
+config:
+  store_entities_as_slots: true
+entities: []
+intents:
+- greet
+- code_puk
+- wifi
+- wifi_interne
+- wifi_guest
+slots: {}
+templates:
+  utter_code_puk:
+  - text: information code puk
+  utter_greet:
+  - buttons:
+    - payload: code puk
+      title: code puk
+    - payload: wifi
+      title: wifi
+    text: Bonjour, commment puis je vous aidez ?
+  utter_wifi:
+  - buttons:
+    - payload: wifi interne
+      title: wifi guest
+    - payload: wifi guest
+      title: wifi guest
+    text: information wifi
+  utter_wifi_guest:
+  - text: information wifi guest
+  utter_wifi_interne:
+  - text: information wifi interne
+topics: []

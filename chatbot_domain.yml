@@ -1,0 +1,42 @@
+intents:
+  - greet
+  - code_puk
+  - wifi
+  - wifi_interne
+  - wifi_guest
+
+actions:
+  - utter_greet
+  - utter_wifi
+  - utter_wifi_interne
+  - utter_wifi_guest
+  - utter_code_puk
+
+templates:
+  utter_greet:
+    - text:  "Bonjour, commment puis je vous aider ?"
+      buttons: 
+      - title:  "code puk"
+        payload:  "code puk"
+      - title:  "wifi"
+        payload: "wifi"
+
+  utter_wifi:
+    - text:  "information wifi"
+      buttons: 
+      - title:  "wifi guest"
+        payload:  "wifi interne"
+      - title:  "wifi guest"
+        payload:  "wifi guest"
+
+  utter_wifi_interne:
+    - text:  "information wifi interne"
+
+  utter_wifi_guest:
+    - text:  "information wifi guest"
+
+  utter_code_puk:
+    - text:  "information code puk"
+
+    
+

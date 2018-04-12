@@ -1,0 +1,16 @@
+{
+  "features": [
+    "intent_greet",
+    "intent_code_puk",
+    "intent_wifi",
+    "intent_wifi_interne",
+    "intent_wifi_guest",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_utter_greet",
+    "prev_utter_wifi",
+    "prev_utter_wifi_interne",
+    "prev_utter_wifi_guest",
+    "prev_utter_code_puk"
+  ]
+}
